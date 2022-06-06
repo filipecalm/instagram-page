@@ -1,1 +1,1 @@
-# CLONE of Instagram page in HTML and CCS
+# CLONE of Instagram login page in HTML and CCS
