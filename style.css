@@ -122,6 +122,10 @@ figure {
   font-size: 11px;
 }
 
+span {
+  cursor: pointer;
+}
+
 .link-blue {
   color: #299CF7;
   font-weight: bold;
