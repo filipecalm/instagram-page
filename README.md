@@ -1,4 +1,4 @@
-# CLONE of Instagram login page in HTML and CCS
+# CLONE da página de login do Instagram
 
 Stacks:
 
