@@ -8,18 +8,17 @@
 }
 
 body {
-  flex-wrap: wrap;
-  width: 90%;
-  height: 70%;
-  min-height: 100vh;
-  background-color: rgb(243, 243, 243);
   display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: rgb(243, 243, 243);
   justify-content: center;
 }
 
 footer,
 section {
-  padding: 5rem;
+  padding: 2rem;
+  gap: 30px;
   max-width: 96rem;
   margin: 0 auto;
 }
@@ -29,29 +28,40 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 900px;
-  height: 100vh;
+  width: 1024px;
+  height: 600px;
 }
 
-.instagram-phone {
+figure {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
+  position: relative;
+  height: 550px;
 }
 
-.instagram-phone img {
+.iphone {
+  height: 600px;
   align-items: center;
   justify-content: center;
-  height: 46rem;
+
   margin-top: 20px;
   margin-left: 200px;
+}
+
+.img-instagram {
+  position: absolute;
+  left: 53.5%;
+  top: 10px;
+  height: 558px;
+  transition: 1.0s ease;
 }
 
 .instagram-continue {
   display: flex;
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
   flex-direction: column;
   width: 60%;
   min-height: 34rem;
@@ -86,7 +96,7 @@ section {
   align-items: center;
   width: 50%;
   height: 50%;
-  }
+}
 
 .profile-photo img {
   border-radius: 50%;
@@ -160,7 +170,7 @@ section {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
- }
+}
 
 .rodape {
   text-indent: 15px;
@@ -169,7 +179,7 @@ section {
   justify-content: flex-end;
   font-size: 10px;
   color: rgba(43, 42, 42, 0.664);
-  font-family: helvetica,  arial,  sans-serif, arial,  tahoma,  verdana;
+  font-family: helvetica, arial, sans-serif, arial, tahoma, verdana;
   margin-bottom: 7px;
   line-height: 16px;
 }
@@ -178,28 +188,28 @@ section {
 
 @media (max-width: 1024px) {
   .instagram-wrapper {
-      width: 90%;
+    width: 90%;
   }
 }
 
 @media (max-width: 650px) {
   body {
-      background-color: #ffffff;
+    background-color: #ffffff;
   }
 
   .instagram-wrapper {
-      width: 90%;
+    width: 90%;
   }
 
   .instagram-phone img {
-      display: none;
+    display: none;
   }
 
   .instagram-continue {
-      width: 100%;
+    width: 100%;
   }
-  
+
   .group {
-      border: 1px solid transparent;
+    border: 1px solid transparent;
   }
 }
