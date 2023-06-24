@@ -19,13 +19,13 @@ Este projeto foi criado utilizando as seguintes tecnologias:
 
 ## Demonstração
 
-Veja o resultado final do projeto [aqui](https://filipecalm.github.io/instagram-page/).
+Veja o resultado final do projeto [aqui](https://instagram-page-filipecalm.netlify.app/).
 
 ![Demonstração do Projeto](https://user-images.githubusercontent.com/103292859/189257658-d33c351b-dd93-446c-8815-e2bf9f652537.png)
 
 ## Como executar o projeto
 
-Você pode clonar o repositório e abrir o arquivo `index.html` no seu navegador, ou simplesmente visitar a [página de demonstração](https://filipecalm.github.io/instagram-page/).
+Você pode clonar o repositório e abrir o arquivo `index.html` no seu navegador, ou simplesmente visitar a [página de demonstração](https://instagram-page-filipecalm.netlify.app/).
 
 ## Contribuições
 
